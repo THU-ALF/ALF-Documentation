@@ -3,7 +3,7 @@ title: Before you start
 sidebar_position: 1
 ---
 
-# Before you start
+# Before you start the experience
 
 The main menu is the first thing learners see when they start the app. It's a scene of its own, with a panel listing your lessons:
 
