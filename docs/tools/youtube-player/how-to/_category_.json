@@ -1,0 +1,9 @@
+{
+  "label": "How-to guides",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "title": "YouTube Player: how-to guides",
+    "description": "Short, step-by-step guides for adding video screens to a lesson."
+  }
+}

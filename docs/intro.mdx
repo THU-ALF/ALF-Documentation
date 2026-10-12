@@ -1,0 +1,50 @@
+---
+sidebar_position: 1
+title: Introduction
+---
+
+# ALF Interactivity Tools
+
+The ALF tools help you build interactive XR lessons in Unity: scenes to stand in, step-by-step instructions, buttons learners can press, machines that come apart, parts that move, and more.
+
+You don't need to be a Unity expert. Each tool has short step-by-step guides, starting with **Before you start**.
+
+## The tools
+
+| Tool | What it does | Start here |
+|---|---|---|
+| [Scene Generation](./tools/scene-generation/index.md) | Creates a new lesson scene, in VR or AR, with the player set up. | [Before you start](./tools/scene-generation/how-to/before-you-start.md) |
+| [Main Menu Setup](./tools/main-menu/index.md) | Builds the start menu, with one button per lesson. | [Before you start](./tools/main-menu/how-to/before-you-start.md) |
+| [Scenario Setup](./tools/scenario-setup/index.md) | Builds the lesson as a series of steps, with instructions, changes in the room, and ways to finish each step. | [Before you start](./tools/scenario-setup/how-to/before-you-start.md) |
+| [Guidance Setup](./tools/guidance-setup/index.md) | A simpler version of Scenario Setup: instruction panels only. | [Before you start](./tools/guidance-setup/how-to/before-you-start.md) |
+| [Button Injection](./tools/button-injection/index.md) | Adds pressable buttons to a machine, or anywhere in the room. | [Before you start](./tools/button-injection/how-to/before-you-start.md) |
+| [Object Spawner](./tools/object-spawner/index.md) | Puts a model into the scene, and decides whether learners can pick it up. | [Before you start](./tools/object-spawner/how-to/before-you-start.md) |
+| [Exploded View](./tools/exploded-view/index.md) | Pulls a machine apart into its pieces, and puts it back together. | [Before you start](./tools/exploded-view/how-to/before-you-start.md) |
+| [Kinematic Editor Tool](./tools/xr-kinematics/index.md) | Makes parts slide, swing or spin, with buttons to control them. | [Before you start](./tools/xr-kinematics/how-to/before-you-start.md) |
+| [Part Palette](./tools/part-palette/index.md) | A board on the wall with small models of parts. Poking one gives the learner the real part. | [Before you start](./tools/part-palette/how-to/before-you-start.md) |
+| [YouTube Player](./tools/youtube-player/index.md) | Adds a video screen that stays in the room. | [Add a video screen](./tools/youtube-player/how-to/add-a-video-screen.md) |
+| [Positioning Setup](./tools/positioning/index.md) | AR only: lines up a 3D model with a real object using printed QR codes. | [Before you start](./tools/positioning/how-to/before-you-start.md) |
+
+## Building a lesson, in order
+
+1. **Create the scene** with [Scene Generation](./tools/scene-generation/index.md).
+2. **Add what the learner works with:** models with [Object Spawner](./tools/object-spawner/index.md), buttons with [Button Injection](./tools/button-injection/index.md), moving parts with the [Kinematic Editor Tool](./tools/xr-kinematics/index.md), machines that come apart with [Exploded View](./tools/exploded-view/index.md), and so on.
+3. **For AR on a real object,** line it up with [Positioning Setup](./tools/positioning/index.md).
+4. **Build the lesson steps** with [Scenario Setup](./tools/scenario-setup/index.md), which ties everything together.
+5. **Add the lesson to the start menu** with [Main Menu Setup](./tools/main-menu/index.md).
+
+## Where to find the tools
+
+In Unity's top menu, under **ALF**. The tools that add things to a scene are under **ALF > Interactivity**.
+
+## The tool windows work in similar ways
+
+- **Many tools have a list on the left** of what you've already made in the scene. Click an item to change it.
+- **On the right are numbered steps,** one at a time. Work through them in order with **Next**.
+- **The heading above the steps** tells you whether you're editing something that exists, or setting up something new.
+- **When you're done,** save the scene with **Ctrl+S**.
+- **Stop Play mode before using a tool.** Changes made while the scene is playing are lost.
+
+:::tip[New to Unity?]
+The Unity words used in these guides (Scene, Hierarchy, Inspector, Play mode) are explained in [Button Injection: Before you start](./tools/button-injection/how-to/before-you-start.md#unity-terms-youll-see).
+:::
