@@ -68,7 +68,7 @@ const config: Config = {
       title: 'ALF XR Framework',
       logo: {
         alt: 'ALF XR Framework Logo',
-        src: 'img/logo.svg',
+        src: 'img/thu-logo.png',
       },
       items: [
         {
