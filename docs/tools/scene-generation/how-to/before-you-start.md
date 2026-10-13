@@ -7,7 +7,7 @@ sidebar_position: 1
 
 Every lesson lives in its own **scene**: a file that holds the room, the machines and everything the learner sees. Scene Generation makes a new scene and puts the **player setup** in it, so the learner's headset, controllers or hands work straight away.
 
-New to Unity? The basic terms (Scene, Hierarchy, Project window, Play mode) are explained in [Button Injection: Before you start](../../button-injection/how-to/before-you-start.md#unity-terms-youll-see).
+New to Unity? The basic terms (Scene, Hierarchy, Project window, Play mode) are explained in [Before you start](../../../before-you-start.md).
 
 ## VR or AR?
 

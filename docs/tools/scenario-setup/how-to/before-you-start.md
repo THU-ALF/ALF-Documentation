@@ -7,7 +7,7 @@ sidebar_position: 1
 
 A scenario is your lesson, broken into **steps**. The learner sees one step at a time and moves on when the step is finished.
 
-New to Unity? The basic terms (Scene, Hierarchy, Project window, Play mode) are explained in [Button Injection: Before you start](../../button-injection/how-to/before-you-start.md#unity-terms-youll-see).
+New to Unity? The basic terms (Scene, Hierarchy, Project window, Play mode) are explained in [Before you start](../../../before-you-start.md).
 
 ## What a step is made of
 

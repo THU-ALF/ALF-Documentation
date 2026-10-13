@@ -13,7 +13,7 @@ A guidance sequence is a series of instruction panels. The learner reads one pan
 
 If a panel is out of view, an arrow near the learner points towards it.
 
-New to Unity? The basic terms (Scene, Hierarchy, Project window, Play mode) are explained in [Button Injection: Before you start](../../button-injection/how-to/before-you-start.md#unity-terms-youll-see).
+New to Unity? The basic terms (Scene, Hierarchy, Project window, Play mode) are explained in [Before you start](../../../before-you-start.md).
 
 ## Guidance or Scenario?
 

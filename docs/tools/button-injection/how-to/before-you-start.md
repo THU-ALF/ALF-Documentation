@@ -5,18 +5,9 @@ sidebar_position: 1
 
 # Before you start
 
-You don't need to know Unity well to use Button Injection. This page covers the few Unity terms the guides use, and what the tool's window looks like.
+This page shows how to open Button Injection and what its window looks like.
 
-## Unity terms you'll see
-
-| Term | What it is |
-|---|---|
-| **Scene** | The 3D room your lesson takes place in. |
-| **Hierarchy** | The panel listing every object in the scene, usually on the left of the Unity editor. You'll drag objects from here into the tool. |
-| **Scene view** | The large 3D view of the room, where you can look around and click on objects. |
-| **Inspector** | The panel showing the settings of whatever is selected. You won't usually need it for buttons. |
-| **Play mode** | Pressing **Play** at the top of the editor runs the lesson so you can try it. Changes made while playing are thrown away when you stop. |
-| **Save the scene** | Keeps your changes. Until you save, your buttons exist only in the open editor. |
+New to Unity? The basic terms (Scene, Hierarchy, Play mode) are explained in [Before you start](../../../before-you-start.md).
 
 ## Opening the tool
 

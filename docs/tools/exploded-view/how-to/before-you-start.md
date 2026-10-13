@@ -7,7 +7,7 @@ sidebar_position: 1
 
 An exploded view pulls a machine apart so learners can see every piece, then puts it back together. This page covers what your model needs, and what the tool's window looks like.
 
-New to Unity? The Unity terms used here (Scene, Hierarchy, Scene view, Play mode) are explained in [Button Injection: Before you start](../../button-injection/how-to/before-you-start.md#unity-terms-youll-see).
+New to Unity? The Unity terms used here (Scene, Hierarchy, Scene view, Play mode) are explained in [Before you start](../../../before-you-start.md).
 
 ## Check your model first
 

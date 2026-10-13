@@ -15,7 +15,7 @@ A Part Palette is a board on the wall of your scene with small 3D models of part
 - **A prefab for each part.** A prefab is a ready-made object saved in your project, such as a resistor model. You'll find prefabs in the **Project** window, usually at the bottom of the Unity editor.
 - **Ideas for columns.** Decide how to group the parts: one column per kind of part, one row per variant.
 
-New to Unity? The basic terms (Scene, Hierarchy, Play mode) are explained in [Button Injection: Before you start](../../button-injection/how-to/before-you-start.md#unity-terms-youll-see).
+New to Unity? The basic terms (Scene, Hierarchy, Play mode) are explained in [Before you start](../../../before-you-start.md).
 
 ## Two things to know about this tool
 

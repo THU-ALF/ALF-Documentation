@@ -9,7 +9,7 @@ The main menu is the first thing learners see when they start the app. It's a sc
 
 ![ALF menu with Main Menu Setup highlighted](./img/main-menu-setup-scene.png)
 
-New to Unity? The basic terms (Scene, Hierarchy, Project window, Play mode) are explained in [Button Injection: Before you start](../../button-injection/how-to/before-you-start.md#unity-terms-youll-see).
+New to Unity? The basic terms (Scene, Hierarchy, Project window, Play mode) are explained in [Before you start](../../../before-you-start.md).
 
 ## What you need first
 

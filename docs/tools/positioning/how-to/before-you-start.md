@@ -7,7 +7,7 @@ sidebar_position: 1
 
 Positioning Setup lines up a 3D model with a real object, using printed QR codes. It's for **AR lessons**, where the learner sees the real room through the headset.
 
-New to Unity? The basic terms (Scene, Hierarchy, Project window, Play mode) are explained in [Button Injection: Before you start](../../button-injection/how-to/before-you-start.md#unity-terms-youll-see).
+New to Unity? The basic terms (Scene, Hierarchy, Project window, Play mode) are explained in [Before you start](../../../before-you-start.md).
 
 ## How it works
 

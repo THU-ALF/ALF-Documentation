@@ -7,7 +7,7 @@ sidebar_position: 1
 
 The Kinematic Editor Tool makes parts of a machine move: a slider that slides, a lever or door that swings, a wheel that spins. Each part moves smoothly between limits you set, and stops there by itself. Nothing else in the scene can push it, so it always moves exactly as set up.
 
-New to Unity? The basic terms (Scene, Hierarchy, Play mode) are explained in [Button Injection: Before you start](../../button-injection/how-to/before-you-start.md#unity-terms-youll-see).
+New to Unity? The basic terms (Scene, Hierarchy, Play mode) are explained in [Before you start](../../../before-you-start.md).
 
 ## What you need
 

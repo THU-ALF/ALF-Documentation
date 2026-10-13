@@ -7,7 +7,7 @@ sidebar_position: 1
 
 **Goal:** place a screen in the room that plays a YouTube video.
 
-New to Unity? The basic terms (Scene, Hierarchy, Play mode) are explained in [Button Injection: Before you start](../../button-injection/how-to/before-you-start.md#unity-terms-youll-see).
+New to Unity? The basic terms (Scene, Hierarchy, Play mode) are explained in [Before you start](../../../before-you-start.md).
 
 ## Steps
 
