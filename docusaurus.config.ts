@@ -65,11 +65,11 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'ALF XR Framework',
-      logo: {
-        alt: 'ALF XR Framework Logo',
-        src: 'img/logo.svg',
-      },
+  title: 'ALF XR Framework',
+  logo: {
+    alt: 'ALF logo',
+    src: 'img/thu-logo.png',
+  },
       items: [
         {
           type: 'docSidebar',

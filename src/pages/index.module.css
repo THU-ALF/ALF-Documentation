@@ -1,23 +1,211 @@
-/**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
- */
+/* Homepage. Colours come from the theme variables in src/css/custom.css. */
 
-.heroBanner {
-  padding: 4rem 0;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
+.inner {
+  max-width: 72rem;
+  margin: 0 auto;
+  padding: 0 1.5rem;
 }
 
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
-  }
+/* Hero */
+.hero {
+  background: var(--alf-mist);
+  border-bottom: 1px solid var(--alf-line);
+  padding: 5rem 0 4rem;
 }
 
-.buttons {
+.title {
+  max-width: 18ch;
+  font-size: clamp(2.25rem, 5vw, 3.5rem);
+  line-height: 1.08;
+  letter-spacing: -0.015em;
+  color: var(--alf-ink);
+  margin-bottom: 1.25rem;
+}
+
+.lead {
+  max-width: 34rem;
+  font-size: 1.25rem;
+  line-height: 1.55;
+  color: var(--alf-ink-soft);
+  margin-bottom: 2rem;
+}
+
+.actions {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.primary,
+.secondary {
+  display: inline-block;
+  padding: 0.8rem 1.4rem;
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 1.05rem;
+  text-decoration: none;
+  border: 2px solid var(--ifm-color-primary);
+}
+
+.primary {
+  background: var(--ifm-color-primary);
+  color: var(--alf-on-primary);
+}
+
+.primary:hover {
+  background: var(--ifm-color-primary-darker);
+  border-color: var(--ifm-color-primary-darker);
+  color: var(--alf-on-primary);
+  text-decoration: none;
+}
+
+.secondary {
+  color: var(--ifm-color-primary);
+  background: transparent;
+}
+
+.secondary:hover {
+  background: var(--alf-tint);
+  color: var(--ifm-color-primary-darker);
+  text-decoration: none;
+}
+
+.primary:focus-visible,
+.secondary:focus-visible {
+  outline: 3px solid var(--alf-signal);
+  outline-offset: 3px;
+}
+
+/* Sections */
+.section {
+  padding: 4rem 0 1rem;
+}
+
+.section:last-of-type {
+  padding-bottom: 5rem;
+}
+
+.sectionTitle {
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+  color: var(--alf-ink);
+}
+
+.sectionLead {
+  color: var(--alf-ink-soft);
+  margin-bottom: 1.5rem;
+}
+
+/* Lesson path: the five steps sit on one line, with numbered markers. */
+.path {
+  list-style: none;
+  counter-reset: step;
+  margin: 2rem 0 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 1.5rem;
+  position: relative;
+}
+
+.path::before {
+  content: '';
+  position: absolute;
+  top: 1.1rem;
+  left: 1.1rem;
+  right: 1.1rem;
+  height: 2px;
+  background: var(--alf-line);
+}
+
+.step {
+  counter-increment: step;
+  position: relative;
+  padding-top: 3.25rem;
+}
+
+.step::before {
+  content: counter(step);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2.2rem;
+  height: 2.2rem;
+  border-radius: 50%;
+  background: var(--alf-signal);
+  color: #fff;
+  font-weight: 700;
+  display: grid;
+  place-items: center;
+  box-shadow: 0 0 0 5px var(--ifm-background-color);
+}
+
+.stepTitle {
+  font-size: 1.1rem;
+  margin-bottom: 0.4rem;
+  color: var(--alf-ink);
+}
+
+.stepText {
+  color: var(--alf-ink-soft);
+  margin-bottom: 0.6rem;
+  font-size: 0.95rem;
+}
+
+.stepTools {
+  font-weight: 700;
+  font-size: 0.95rem;
+  margin: 0;
+}
+
+/* Tool index: plain rows, two columns on wide screens. */
+.tools {
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: 3rem;
+}
+
+.toolRow {
+  padding: 0.9rem 0;
+  border-top: 1px solid var(--alf-line);
+}
+
+.toolRow dt {
+  font-weight: 700;
+  margin-bottom: 0.15rem;
+}
+
+.toolRow dd {
+  margin: 0;
+  color: var(--alf-ink-soft);
+}
+
+@media (max-width: 996px) {
+  .path {
+    grid-template-columns: 1fr;
+    gap: 1.75rem;
+  }
+
+  .path::before {
+    top: 1.1rem;
+    bottom: 1.1rem;
+    left: 1.1rem;
+    right: auto;
+    width: 2px;
+    height: auto;
+  }
+
+  .step {
+    padding-top: 0;
+    padding-left: 3.5rem;
+  }
+
+  .tools {
+    grid-template-columns: 1fr;
+  }
+
+  .hero {
+    padding: 3rem 0 2.5rem;
+  }
 }

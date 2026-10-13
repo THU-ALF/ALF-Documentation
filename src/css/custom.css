@@ -1,30 +1,53 @@
 /**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
+ * Global theme for the ALF guides.
+ * Change the colours here and the whole site follows: links, buttons,
+ * the sidebar and the homepage.
  */
 
-/* You can override the default Infima variables here. */
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap');
+
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  /* Petrol: the main colour (links, buttons, active sidebar item) */
+  --ifm-color-primary: #0b6574;
+  --ifm-color-primary-dark: #0a5b68;
+  --ifm-color-primary-darker: #095663;
+  --ifm-color-primary-darkest: #074751;
+  --ifm-color-primary-light: #0c6f80;
+  --ifm-color-primary-lighter: #0d7485;
+  --ifm-color-primary-lightest: #0f8397;
+
+  /* Homepage colours */
+  --alf-ink: #14232b;        /* headings */
+  --alf-ink-soft: #3e525c;   /* body text on the homepage */
+  --alf-mist: #eef3f5;       /* hero background */
+  --alf-line: #cfdadf;       /* dividers */
+  --alf-tint: #e0eef0;       /* hover background */
+  --alf-signal: #e2702a;     /* step numbers */
+  --alf-on-primary: #ffffff; /* text on petrol buttons */
+
+  --ifm-font-family-base: 'Atkinson Hyperlegible', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --ifm-heading-font-family: var(--ifm-font-family-base);
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
+/* Dark mode: lighter petrol so links stay readable on a dark background. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+  --ifm-color-primary: #5cc0cc;
+  --ifm-color-primary-dark: #44b6c4;
+  --ifm-color-primary-darker: #3bafbd;
+  --ifm-color-primary-darkest: #30909c;
+  --ifm-color-primary-light: #74cad4;
+  --ifm-color-primary-lighter: #7fcfd8;
+  --ifm-color-primary-lightest: #a2dce3;
+
+  --alf-ink: #e8eef0;
+  --alf-ink-soft: #b4c3c9;
+  --alf-mist: #18252c;
+  --alf-line: #2f4049;
+  --alf-tint: #1d3239;
+  --alf-signal: #ef8a4a;
+  --alf-on-primary: #0d1b21;
+
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
