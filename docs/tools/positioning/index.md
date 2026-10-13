@@ -9,14 +9,7 @@ description: Line up a 3D model with a real object using printed QR codes (AR on
 
 For **AR lessons only.** Lines up your 3D model with a **real object** in the room, for example a digital overlay on a real machine. You stick printed **QR codes** on the object (or lay them under it). The headset finds the codes and shows the model exactly in the right place.
 
-```text
-   Real machine            Headset view
-   ┌──────────┐            ┌──────────┐
-   │  ▣    ▣  │   ──►      │  ▣ 3D ▣  │  ← the model appears
-   │          │            │  model   │     on top of the
-   └──────────┘            └──────────┘     real machine
-     QR codes
-```
+![Printed QR codes on the real machine are read by the headset, which shows the 3D model on top of the machine](./img/positioning-overview.svg)
 
 ## Quick start
 
