@@ -7,9 +7,9 @@ description: Add pressable buttons to a machine, or anywhere in the room.
 
 **Menu:** ALF > Interactivity > Button Injection
 
-Adds a button that learners can press, either **on a machine** (it moves with the machine) or **anywhere in the room**. The machine itself isn't changed.
+Adds a button that learners can press, either **on a machine** (it moves with the machine) or **anywhere in the room**. The machine itself isn't changed, except with **Clickable part**, which makes one of its parts pressable.
 
-## Four kinds of button
+## Five kinds of button
 
 | Kind | Looks like |
 |---|---|
@@ -17,6 +17,7 @@ Adds a button that learners can press, either **on a machine** (it moves with th
 | **Flat button with a label** | The same, with text above it. |
 | **Push button model** | A 3D push button that moves when pressed. |
 | **Push button model with a label** | The same, with text above it. |
+| **Clickable part** | A part of the machine itself becomes pressable. No separate button is added. |
 
 ## Quick start
 

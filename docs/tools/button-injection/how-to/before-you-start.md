@@ -37,5 +37,6 @@ Anything you change in Play mode is lost when you stop. Stop Play mode first.
 | The same, with text above it | **Flat button with a label** |
 | A 3D push button that moves when pressed | **Push button model** |
 | The same, with text above it | **Push button model with a label** |
+| A part of the machine itself that learners can press, without adding a separate button | **Clickable part** |
 
 You can change the kind later. See [Edit, rename or delete a button](./edit-rename-delete.md).

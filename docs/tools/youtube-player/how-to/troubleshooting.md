@@ -8,7 +8,7 @@ sidebar_position: 3
 ## Generate YouTube Player is greyed out
 
 - **No video ID was detected.** Paste the link again; the box must say **Video ID detected**.
-- **Player Prefab is empty.** A file the tool needs is missing from the project. Ask whoever maintains the project to check the ALF installation.
+- **Video Player Prefab is empty.** A file the tool needs is missing from the project. Ask whoever maintains the project to check the ALF installation.
 
 ## The screen stays black in the headset
 

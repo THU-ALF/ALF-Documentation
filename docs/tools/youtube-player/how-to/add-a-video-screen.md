@@ -23,7 +23,7 @@ New to Unity? The basic terms (Scene, Hierarchy, Play mode) are explained in [Be
 
    | Field | What to do |
    |---|---|
-   | **Player Prefab** | Leave as it is. It's filled in for you. |
+   | **Video Player Prefab** | Leave as it is. It's filled in for you. |
    | **Spawn Coordinates** | Where the screen appears, in metres from the centre of the world. |
    | **Player Size** | **Small**, **Default**, **Big** or **Large**, or **Custom** with your own **Custom Multiplier**. |
 
