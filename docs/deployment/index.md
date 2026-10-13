@@ -28,8 +28,8 @@ The steps are written for **Unity 6.3**, the version the project uses.
 
 Once per computer and headset (or ask the tech team):
 
-1. [Prepare the headset](./prepare-the-headset.md): developer mode and USB debugging.
-2. [Prepare Unity](./prepare-unity.md): Android build support, switching the project to Android, and the scene list.
+1. [Prepare Unity](./prepare-unity.md): Android build support, switching the project to Android, and the scene list.
+2. [Prepare the headset](./prepare-the-headset.md): developer mode and USB debugging, then check that Unity sees it.
 3. Get to know the two build profiles: [Meta Quest 3](./meta-quest-build-profile.md) and [PICO 4](./pico-build-profile.md).
 
 Every time the lessons change:

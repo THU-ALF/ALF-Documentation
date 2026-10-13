@@ -1,9 +1,11 @@
 ---
 title: Prepare the headset
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 # Prepare the headset
+
+Do this after [preparing Unity](./prepare-unity.md): Unity only shows connected headsets once the project is switched to Android.
 
 A headset only accepts apps over USB once **developer mode** and **USB debugging** are on. This is done once per headset. If your headsets are already set up by the tech team, skip to [Check the connection](#check-the-connection).
 
@@ -30,7 +32,7 @@ A headset only accepts apps over USB once **developer mode** and **USB debugging
 
 ## Check the connection
 
-In Unity, open **File > Build Profiles**, select your headset's profile and open the **Run Device** list. The headset should appear there. If it doesn't, see [Troubleshooting](./troubleshooting.md#the-headset-doesnt-appear-in-run-device).
+In Unity, open **File > Build Profiles** and select **Android** (or your headset's profile). It must be marked **Active**; if it isn't, [switch the project to Android](./prepare-unity.md#switch-the-project-to-android) first. Click **Refresh** next to **Run Device** and open the list. The headset should appear there. If it doesn't, see [Troubleshooting](./troubleshooting.md#the-headset-doesnt-appear-in-run-device).
 
 :::tip[Use a data cable]
 Some USB-C cables only charge. If the headset never shows up, try another cable before anything else.
