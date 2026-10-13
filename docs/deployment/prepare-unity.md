@@ -53,7 +53,7 @@ The app contains only the scenes in the build profile's **Scene List**. The **fi
 2. Put the **main menu** scene at the **top**. The main menu then opens the lessons. See [Main Menu Setup](../tools/main-menu/index.md).
 3. Add every **lesson scene** that the main menu links to. Lesson scenes made with [Scene Generation](../tools/scene-generation/index.md) are saved under `Assets/ALF-Generated/Scenes`.
 
-:::info[Screenshot]
+:::info[Note]
 *Placeholder: File > Build Profiles > Scene List, with the main menu first and the lesson scenes below.*
 :::
 

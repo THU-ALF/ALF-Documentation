@@ -13,7 +13,7 @@ The project already contains a build profile called **PICO 4**. It holds all the
 2. In the list on the left, click **PICO 4**.
 3. If it isn't marked **Active** yet, click **Switch Profile** and wait until Unity is done.
 
-:::info[Screenshot]
+:::info[Note]
 *Placeholder: File > Build Profiles with the PICO 4 profile selected and marked Active.*
 :::
 
@@ -25,7 +25,7 @@ The PICO 4 and the Meta Quest 3 share some settings, so check these each time be
 2. **OpenXR** is ticked, and nothing else in the list.
 3. Click **OpenXR** in the left column. In the **Android** tab, **PICO** is ticked and **Meta Quest Support** is **not** ticked.
 
-:::info[Screenshot]
+:::info[Note]
 *Placeholder: XR Plug-in Management > OpenXR, Android tab, set up for the PICO 4.*
 :::
 

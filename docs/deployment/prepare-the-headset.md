@@ -14,7 +14,7 @@ A headset only accepts apps over USB once **developer mode** and **USB debugging
 3. **Restart the headset.**
 4. **Connect it to the computer** with a USB-C data cable. In the headset, a prompt asks **Allow USB debugging?** Choose **Always allow from this computer**.
 
-:::info[Screenshot]
+:::info[Note]
 *Placeholder: the "Allow USB debugging" prompt in the Meta Quest 3.*
 :::
 
@@ -24,7 +24,7 @@ A headset only accepts apps over USB once **developer mode** and **USB debugging
 2. **Turn on USB debugging.** Go to **Settings > Developer** and switch on **USB debugging**.
 3. **Connect it to the computer** with a USB-C data cable. Confirm the **Allow USB debugging?** prompt in the headset, and choose to always allow this computer.
 
-:::info[Screenshot]
+:::info[Note]
 *Placeholder: Settings > Developer on the PICO 4, with USB debugging switched on.*
 :::
 

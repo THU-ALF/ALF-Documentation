@@ -18,6 +18,10 @@ Deploying turns the Unity project into an app and installs it on a headset over 
 | **Meta Quest 3** | **Meta Quest 3** | [Meta Quest 3 build profile](./meta-quest-build-profile.md) |
 | **PICO 4** | **PICO 4** | [PICO 4 build profile](./pico-build-profile.md) |
 
+:::tip[The quick way]
+You can also build for both headsets straight from the **Android** platform: choose the connected headset in **Run Device** and click **Build And Run**. See [The quick way: Android and Run Device](./build-and-install.md#the-quick-way-android-and-run-device).
+:::
+
 The steps are written for **Unity 6.3**, the version the project uses.
 
 ## The order

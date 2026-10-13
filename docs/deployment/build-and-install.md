@@ -5,7 +5,28 @@ sidebar_position: 5
 
 # Build and install
 
-## Build and run over USB
+There are two ways to build. Both install the app over USB.
+
+| Way | When to use it |
+|---|---|
+| [**Android + Run Device**](#the-quick-way-android-and-run-device) | The quickest way. One setup for both headsets: you only pick the connected headset. |
+| [**Headset build profile**](#build-with-a-headset-profile) | When the tech team has prepared a separate profile per headset. |
+
+## The quick way: Android and Run Device
+
+With the project switched to **Android** (see [Switch the project to Android](./prepare-unity.md#switch-the-project-to-android)), Unity lists every connected headset, Meta Quest 3 and PICO 4 alike, in **Run Device**.
+
+1. Connect the headset by USB and put it on, or keep it awake. Confirm the **Allow USB debugging?** prompt if it appears.
+2. Open **File > Build Profiles**. Under **Platforms**, click **Android** and check that it's marked **Active**.
+3. Next to **Run Device**, click **Refresh**, then choose the headset from the list.
+4. **Check the headset's XR setting.** Open **Edit > Project Settings > XR Plug-in Management > OpenXR** and click the **Android** tab. The feature for the connected headset must be ticked: **Meta Quest Support** for the Meta Quest 3, **PICO** for the PICO 4.
+5. Click **Build And Run** and choose a folder for the `.apk` file, for example `Builds/Quest3` or `Builds/PICO4`.
+
+Unity builds the app, installs it on the headset and starts it. The first build takes a while; later builds are faster.
+
+To build for the other headset, connect it, choose it in **Run Device**, check its XR setting, and click **Build And Run** again.
+
+## Build with a headset profile
 
 1. Connect the headset by USB and put it on, or keep it awake.
 2. Open **File > Build Profiles** and select the profile for this headset ([Meta Quest 3](./meta-quest-build-profile.md) or [PICO 4](./pico-build-profile.md)). Make sure it's the **active** profile.
@@ -14,7 +35,7 @@ sidebar_position: 5
 
 Unity builds the app, installs it on the headset and starts it. The first build takes a while; later builds are faster.
 
-:::info[Screenshot]
+:::info[Note]
 *Placeholder: Build Profiles with Run Device set to the headset and the Build And Run button.*
 :::
 
