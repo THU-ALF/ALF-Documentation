@@ -1,9 +1,9 @@
 ---
-title: Before you start
+title: "How the palette is built"
 sidebar_position: 1
 ---
 
-# Before you start
+# How the palette is built
 
 A Part Palette is a board on the wall of your scene with small 3D models of parts on it, like the drawers of item bench. When a learner pokes one, the real part appears floating in front of the board, ready to grab.
 

@@ -25,7 +25,7 @@ The tool moves the pieces of a model; it can't cut a single solid model apart. S
 
 ## Guides
 
-1. [Before you start](./how-to/before-you-start.md)
+1. [Models that can come apart](./how-to/before-you-start.md)
 2. [Make a model come apart](./how-to/make-a-model-come-apart.md)
 3. [Adjust how the model comes apart](./how-to/adjust-the-explosion.md)
 4. [Open the model at a lesson step](./how-to/open-at-a-lesson-step.md)

@@ -1,9 +1,9 @@
 ---
-title: Before you start
+title: "Models that can come apart"
 sidebar_position: 1
 ---
 
-# Before you start
+# Models that can come apart
 
 An exploded view pulls a machine apart so learners can see every piece, then puts it back together. This page covers what your model needs, and what the tool's window looks like.
 

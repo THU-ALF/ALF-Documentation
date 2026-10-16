@@ -26,7 +26,7 @@ For **AR lessons only.** Lines up your 3D model with a **real object** in the ro
 
 ## Guides
 
-1. [Before you start](./how-to/before-you-start.md)
+1. [How QR alignment works](./how-to/before-you-start.md)
 2. [Create a configuration](./how-to/create-a-configuration.md)
 3. [Add the model](./how-to/add-the-model.md)
 4. [Add the QR codes](./how-to/add-the-qr-codes.md)

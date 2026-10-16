@@ -24,4 +24,5 @@ The button can now be pressed both ways: with a controller ray and with a finger
 
 ## Good to know
 
+- **Clickable parts** are pressed with a pinch, not a fingertip poke. See [How learners press it](./make-a-part-clickable.md#how-learners-press-it).
 - If you use this button to [advance a lesson step](./trigger-lesson-step.md), it will appear under **both** trigger methods in the Scenario tool. Either choice works.

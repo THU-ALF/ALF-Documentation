@@ -13,6 +13,13 @@ Check these in order:
 2. **Is it a flat button in a scene without an Event System?** Flat buttons need one to react at all. The tool shows a warning when it's missing. Ask whoever set up the scene to add one that works with your XR setup. Push button models don't need it.
 3. **Are you pressing a flat button with your finger?** Flat buttons only react to a controller ray unless you tick **Also react to being touched**. See [Let learners press with a finger](./touch.md).
 
+## A clickable part doesn't react
+
+1. **Is it connected to anything?** Like any button, it needs to be connected, for example to a lesson step. See [Use a button to advance a lesson step](./trigger-lesson-step.md).
+2. **With a controller, are you pressing the grip?** The trigger only highlights a clickable part. The **grip** button presses it.
+3. **With hands, are you pinching?** A fingertip poke doesn't press a clickable part. Reach for it and pinch.
+4. **Does it light up when you point at it?** If not, something else may be in the way. Select it in the list and read the notes in step 1, for example a warning that another collider covers the part.
+
 ## I can't see my new button
 
 New buttons start at the **centre of their object**, which may be inside it, or at the **centre of the world**, which may be far from your room. Press **Find** next to the button in the list, then move it in step **2 Position**.
@@ -36,6 +43,14 @@ Another button already had that name. Each button needs a unique name so you can
 ## A value I typed snapped back
 
 It was outside the allowed range. For example, flat buttons must be between 5 mm and 2 m wide, and label text between 1 mm and 500 mm tall. This protects against typos like a missing decimal point.
+
+## Steps 2 and 3 show nothing to set for a clickable part
+
+That's expected. A clickable part covers its part exactly, so it has no position and no label of its own. Move, turn or resize the part itself instead.
+
+## I can't change a clickable part into another type
+
+A clickable part can't be changed into another type, or the other way round. Remove it and place the other type instead.
 
 ## Steps 2 and 3 can't be opened
 

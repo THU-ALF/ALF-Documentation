@@ -11,7 +11,7 @@ New to Unity? The basic terms (Scene, Hierarchy, Play mode) are explained in [Be
 
 ## Steps
 
-1. Open **ALF > YouTube Player Setup**.
+1. Open **ALF > Content Creation > YouTube Player Setup**.
 
    ![ALF menu with YouTube Player Setup highlighted](./img/alf-dropdown-youtube-player.png)
 

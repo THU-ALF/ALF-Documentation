@@ -1,9 +1,9 @@
 ---
-title: Before you start
+title: "VR or AR, and the player setups"
 sidebar_position: 1
 ---
 
-# Before you start
+# VR or AR, and the player setups
 
 Every lesson lives in its own **scene**: a file that holds the room, the machines and everything the learner sees. Scene Generation makes a new scene and puts the **player setup** in it, so the learner's headset, controllers or hands work straight away.
 

@@ -28,7 +28,7 @@ This is the tool that connects the others. Buttons from [Button Injection](../bu
 
 ## Guides
 
-1. [Before you start](./how-to/before-you-start.md)
+1. [How a lesson is built from steps](./how-to/before-you-start.md)
 2. [Create a scenario](./how-to/create-a-scenario.md)
 3. [Write the instructions for a step](./how-to/write-the-instructions.md)
 4. [Place the instruction panel](./how-to/place-the-instructions.md)

@@ -1,9 +1,9 @@
 ---
-title: Before you start
+title: "How a lesson is built from steps"
 sidebar_position: 1
 ---
 
-# Before you start
+# How a lesson is built from steps
 
 A scenario is your lesson, broken into **steps**. The learner sees one step at a time and moves on when the step is finished.
 

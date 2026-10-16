@@ -28,7 +28,7 @@ Makes parts of a machine move: a slider that slides, a door or lever that swings
 
 ## Guides
 
-1. [Before you start](./how-to/before-you-start.md)
+1. [Starting positions and axes](./how-to/before-you-start.md)
 2. [Make a part slide](./how-to/make-a-part-slide.md)
 3. [Make a door or lever swing](./how-to/make-a-part-swing.md)
 4. [Turn a part around a hinge](./how-to/turn-around-a-hinge.md)

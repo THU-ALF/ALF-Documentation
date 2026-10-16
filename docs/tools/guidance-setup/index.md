@@ -21,7 +21,7 @@ It's the simpler sibling of [Scenario Setup](../scenario-setup/index.md): it has
 
 ## Guides
 
-1. [Before you start](./how-to/before-you-start.md)
+1. [When to use Guidance Setup](./how-to/before-you-start.md)
 2. [Create a guidance sequence](./how-to/create-a-guidance-sequence.md)
 3. [Update or remove a guidance sequence](./how-to/update-or-remove.md)
 4. [Troubleshooting](./how-to/troubleshooting.md)

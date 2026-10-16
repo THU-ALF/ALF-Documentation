@@ -21,7 +21,7 @@ sidebar_position: 5
 | **Press Next on the guidance canvas** | The learner presses **Next** on the instruction panel. The simplest choice. |
 | **Reach a place in the room** | The learner walks to a place you mark. See below. |
 | **Press a flat button** | The learner presses a flat button you placed. See below. |
-| **Press a hand-pressable button** | The learner presses a 3D push button you placed. See below. |
+| **Press a hand-pressable button** | The learner presses a 3D push button or a clickable part you placed. See below. |
 | **Something else in the scene signals it** | A script tells the lesson to move on. See below. |
 
 ## Reach a place in the room
@@ -41,13 +41,14 @@ Press **Preview & Adjust Zone** to move the sphere by eye.
 
 The buttons must be placed first, with [Button Injection](../../button-injection/index.md). Then:
 
-1. Choose **Press a flat button** for a flat button, or **Press a hand-pressable button** for a 3D push button.
+1. Choose **Press a flat button** for a flat button, or **Press a hand-pressable button** for a 3D push button or a clickable part.
 2. Pick the button from the **Button** list. Each entry shows the button's name, kind and where it sits.
 
 | Your button is a… | Choose |
 |---|---|
 | Flat button (with or without a label) | **Press a flat button** |
 | Push button model (with or without a label) | **Press a hand-pressable button** |
+| Clickable part | **Press a hand-pressable button** |
 | Flat button with *Also react to being touched* | Either one |
 
 :::tip[Name buttons clearly]

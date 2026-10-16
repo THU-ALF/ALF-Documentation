@@ -29,6 +29,8 @@ If another button already has that name, you'll see a warning. Pick a different 
 
 The button is rebuilt as the new kind. Its position, label and settings are kept. Changes made to it by hand outside the tool are not.
 
+A **clickable part** can't be changed into another type, and other types can't be changed into it. Remove it and place the other type instead.
+
 ## Add several buttons that look alike
 
 1. Select the button whose look you want to reuse.

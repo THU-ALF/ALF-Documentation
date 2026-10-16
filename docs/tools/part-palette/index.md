@@ -20,12 +20,12 @@ A board on the wall with small 3D models of parts, like the drawers of an electr
 7. Save the scene with **Ctrl+S**.
 
 :::note[The board looks empty in the editor]
-The board is built when the lesson starts. To see it while you work, use the preview. See [Before you start](./how-to/before-you-start.md#two-things-to-know-about-this-tool).
+The board is built when the lesson starts. To see it while you work, use the preview. See [How the palette is built](./how-to/before-you-start.md#two-things-to-know-about-this-tool).
 :::
 
 ## Guides
 
-1. [Before you start](./how-to/before-you-start.md)
+1. [How the palette is built](./how-to/before-you-start.md)
 2. [Create a parts palette](./how-to/create-a-palette.md)
 3. [Fill the columns with parts](./how-to/fill-the-columns.md)
 4. [Change how the board looks](./how-to/change-the-look.md)

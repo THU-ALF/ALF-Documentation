@@ -17,7 +17,7 @@ Adds a button that learners can press, either **on a machine** (it moves with th
 | **Flat button with a label** | The same, with text above it. |
 | **Push button model** | A 3D push button that moves when pressed. |
 | **Push button model with a label** | The same, with text above it. |
-| **Clickable part** | A part of the machine itself becomes pressable. No separate button is added. |
+| **Clickable part** | Nothing extra: a part of the machine itself becomes pressable and lights up when pointed at. See [Make a part of a machine clickable](./how-to/make-a-part-clickable.md). |
 
 ## Quick start
 
@@ -32,12 +32,13 @@ A button doesn't do anything until you connect it, for example to a lesson step.
 
 ## Guides
 
-1. [Before you start](./how-to/before-you-start.md)
+1. [Kinds of buttons](./how-to/before-you-start.md)
 2. [Put a button on a machine](./how-to/add-button-to-object.md)
 3. [Put a button in the room](./how-to/add-free-standing-button.md)
-4. [Move and turn a button](./how-to/move-and-rotate.md)
-5. [Add a label to a button](./how-to/add-a-label.md)
-6. [Let learners press with a finger](./how-to/touch.md)
-7. [Use a button to advance a lesson step](./how-to/trigger-lesson-step.md)
-8. [Edit, rename or delete a button](./how-to/edit-rename-delete.md)
-9. [Troubleshooting](./how-to/troubleshooting.md)
+4. [Make a part of a machine clickable](./how-to/make-a-part-clickable.md)
+5. [Move and turn a button](./how-to/move-and-rotate.md)
+6. [Add a label to a button](./how-to/add-a-label.md)
+7. [Let learners press with a finger](./how-to/touch.md)
+8. [Use a button to advance a lesson step](./how-to/trigger-lesson-step.md)
+9. [Edit, rename or delete a button](./how-to/edit-rename-delete.md)
+10. [Troubleshooting](./how-to/troubleshooting.md)

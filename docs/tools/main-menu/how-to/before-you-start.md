@@ -1,9 +1,9 @@
 ---
-title: Before you start
+title: "How the start menu works"
 sidebar_position: 1
 ---
 
-# Before you start the experience
+# How the start menu works
 
 The main menu is the first thing learners see when they start the app. It's a scene of its own, with a panel listing your lessons:
 

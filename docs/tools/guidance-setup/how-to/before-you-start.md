@@ -1,9 +1,9 @@
 ---
-title: Before you start
+title: "When to use Guidance Setup"
 sidebar_position: 1
 ---
 
-# Before you start
+# When to use Guidance Setup
 
 A guidance sequence is a series of instruction panels. The learner reads one panel at a time and moves through them with the panel's buttons:
 

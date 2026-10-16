@@ -1,9 +1,9 @@
 ---
-title: Before you start
+title: "Kinds of buttons"
 sidebar_position: 1
 ---
 
-# Before you start
+# Kinds of buttons
 
 This page shows how to open Button Injection and what its window looks like.
 
@@ -37,6 +37,6 @@ Anything you change in Play mode is lost when you stop. Stop Play mode first.
 | The same, with text above it | **Flat button with a label** |
 | A 3D push button that moves when pressed | **Push button model** |
 | The same, with text above it | **Push button model with a label** |
-| A part of the machine itself that learners can press, without adding a separate button | **Clickable part** |
+| A part of the machine itself that learners can press, without adding a separate button | **Clickable part**. See [Make a part of a machine clickable](./make-a-part-clickable.md). |
 
-You can change the kind later. See [Edit, rename or delete a button](./edit-rename-delete.md).
+You can change the kind later, except to or from a clickable part. See [Edit, rename or delete a button](./edit-rename-delete.md).

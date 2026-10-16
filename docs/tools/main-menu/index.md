@@ -20,7 +20,7 @@ Builds the **start menu** of your app: a scene with a panel that has one button 
 
 ## Guides
 
-1. [Before you start](./how-to/before-you-start.md)
+1. [How the start menu works](./how-to/before-you-start.md)
 2. [Create the main menu](./how-to/create-the-main-menu.md)
 3. [Update the main menu](./how-to/update-the-main-menu.md)
 4. [Troubleshooting](./how-to/troubleshooting.md)

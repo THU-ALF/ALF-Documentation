@@ -5,7 +5,7 @@ sidebar_position: 2
 
 # Before you start
 
-You don't need to know Unity well to use the ALF tools. This page covers the few Unity terms the guides use. Each tool also has its own **Before you start** page with what that tool needs.
+You don't need to know Unity well to use the ALF tools. This page covers the few Unity terms the guides use. Each tool's first guide also lists what that tool needs.
 
 ## Unity terms you'll see
 

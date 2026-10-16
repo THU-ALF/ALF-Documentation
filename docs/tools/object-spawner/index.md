@@ -21,7 +21,7 @@ The model can stand **in the room** or sit **on another object** and move with i
 
 ## Guides
 
-1. [Before you start](./how-to/before-you-start.md)
+1. [What you need to place a model](./how-to/before-you-start.md)
 2. [Put an object in the scene](./how-to/place-an-object.md)
 3. [Move an object](./how-to/move-an-object.md)
 4. [Choose what learners can do with an object](./how-to/choose-what-learners-can-do.md)

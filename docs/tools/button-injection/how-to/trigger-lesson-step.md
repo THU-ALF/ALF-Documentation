@@ -14,7 +14,7 @@ A button does nothing on its own. You connect it to a lesson step in [Scenario S
 Work in this order:
 
 1. Decide which lesson steps should wait for a button press.
-2. Place those buttons with Button Injection. See [Put a button on a machine](./add-button-to-object.md) or [Put a button in the room](./add-free-standing-button.md).
+2. Place those buttons with Button Injection. See [Put a button on a machine](./add-button-to-object.md), [Put a button in the room](./add-free-standing-button.md) or [Make a part of a machine clickable](./make-a-part-clickable.md).
 3. Build the lesson in the Scenario tool, picking each button from a list.
 
 ## Connect the button
@@ -26,6 +26,7 @@ Work in this order:
    |---|---|
    | Flat button | **Press a flat button** |
    | Push button model | **Press a hand-pressable button** |
+   | Clickable part | **Press a hand-pressable button** |
    | Flat button with *Also react to being touched* | Either one |
 
 3. Pick your button from the **Button** list. Each entry shows the button's name, kind and where it sits.

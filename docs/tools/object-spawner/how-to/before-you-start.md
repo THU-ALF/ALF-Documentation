@@ -1,9 +1,9 @@
 ---
-title: Before you start
+title: "What you need to place a model"
 sidebar_position: 1
 ---
 
-# Before you start
+# What you need to place a model
 
 Object Spawner puts a model into your scene and makes it ready for learners, without any setup in the Inspector.
 
@@ -12,6 +12,10 @@ New to Unity? The basic terms (Scene, Hierarchy, Project window, Play mode) are 
 ## What you need
 
 A **model** in your project's **Project window**: a prefab, or an imported 3D file such as an FBX. To use a file from your computer, drag it from your file explorer into the Project window first.
+
+:::tip[Model lying on its side, or the wrong size?]
+Fix it first with the [Model Adjuster](../../model-adjuster/index.md). It saves an upright copy at the right size, and opens the Object Spawner with it.
+:::
 
 ## Object Spawner or Part Palette?
 

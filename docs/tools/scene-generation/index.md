@@ -23,7 +23,7 @@ The new scene is saved in `Assets/ALF-Generated/Scenes` and opened, ready for yo
 
 ## Guides
 
-1. [Before you start](./how-to/before-you-start.md)
+1. [VR or AR, and the player setups](./how-to/before-you-start.md)
 2. [Create a lesson scene](./how-to/create-a-lesson-scene.md)
 3. [Change the player setup of an existing scene](./how-to/update-an-existing-scene.md)
 4. [Troubleshooting](./how-to/troubleshooting.md)

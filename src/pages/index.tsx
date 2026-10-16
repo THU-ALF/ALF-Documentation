@@ -46,12 +46,18 @@ const allTools: {name: string; to: string; text: string}[] = [
   {name: 'Scenario Setup', to: '/docs/tools/scenario-setup', text: 'Builds the lesson as a series of steps.'},
   {name: 'Guidance Setup', to: '/docs/tools/guidance-setup', text: 'A simpler Scenario Setup: instruction panels only.'},
   {name: 'Button Injection', to: '/docs/tools/button-injection', text: 'Adds pressable buttons to a machine, or anywhere in the room.'},
+  {name: 'Model Adjuster', to: '/docs/tools/model-adjuster', text: 'Turns, resizes and sets a model on the ground before you place it.'},
   {name: 'Object Spawner', to: '/docs/tools/object-spawner', text: 'Puts a model into the scene and decides whether learners can pick it up.'},
   {name: 'Exploded View', to: '/docs/tools/exploded-view', text: 'Pulls a machine apart into its pieces, and puts it back together.'},
   {name: 'Kinematic Editor Tool', to: '/docs/tools/xr-kinematics', text: 'Makes parts slide, swing or spin, with buttons to control them.'},
   {name: 'Part Palette', to: '/docs/tools/part-palette', text: 'A board of small parts. Poking one gives the learner the real part.'},
   {name: 'YouTube Player', to: '/docs/tools/youtube-player', text: 'Adds a video screen that stays in the room.'},
+  {name: 'Graphs', to: '/docs/tools/graphs', text: 'Turns a CSV file or formulas into a chart in the room.'},
+  {name: 'Syntax Highlighter', to: '/docs/tools/syntax-highlighter', text: 'Shows program code on a board, coloured like in a code editor.'},
+  {name: 'Motion', to: '/docs/tools/motion', text: 'Records how you operate a machine and replays it as ghost hands.'},
+  {name: 'Planetary Lab', to: '/docs/tools/planetary-lab', text: 'A falling-objects experiment on Earth, the Moon or Mars.'},
   {name: 'Positioning Setup', to: '/docs/tools/positioning', text: 'AR only: lines up a 3D model with a real object using QR codes.'},
+  {name: 'Utilities', to: '/docs/tools/utilities', text: 'Scene Check and Project Status: check the scene and project settings.'},
 ];
 
 function Hero() {

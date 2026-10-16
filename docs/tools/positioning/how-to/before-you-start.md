@@ -1,9 +1,9 @@
 ---
-title: Before you start
+title: "How QR alignment works"
 sidebar_position: 1
 ---
 
-# Before you start
+# How QR alignment works
 
 Positioning Setup lines up a 3D model with a real object, using printed QR codes. It's for **AR lessons**, where the learner sees the real room through the headset.
 
