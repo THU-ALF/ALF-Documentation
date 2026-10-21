@@ -18,7 +18,6 @@ description: Decide what learners do in VR, in AR and on the real object, and ke
 | practice time is **scarce** (few devices, lab slots) | Practise in **VR** first, so every real attempt counts. |
 | the important parts are **hidden or move too fast** to see | Use XR to make them visible: open the machine, slow it down, show the inside. |
 | learners need help **on the object itself** | Use **AR**, with labels lying on the real parts. |
-| none of this applies | Ask whether XR adds enough. A short demonstration on the real object may teach as well. |
 
 **In ALF:** you choose VR or AR per scene in [Scene Generation: VR or AR?](../tools/scene-generation/how-to/before-you-start.md#vr-or-ar). Lining up digital content with a real object in AR is done with [Positioning Setup](../tools/positioning/how-to/before-you-start.md).
 

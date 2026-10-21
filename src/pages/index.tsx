@@ -31,7 +31,10 @@ const lessonPath: {title: string; text: string; tools: ToolRef[]}[] = [
   {
     title: 'Build the lesson steps',
     text: 'Instructions, changes in the room, and how each step finishes.',
-    tools: [{name: 'Scenario Setup', to: '/docs/tools/scenario-setup'}],
+    tools: [
+      {name: 'Scenario Setup', to: '/docs/tools/scenario-setup'},
+      {name: 'XR Pre-Training', to: '/docs/tools/xr-pre-training'},
+    ],
   },
   {
     title: 'Add it to the start menu',
@@ -44,6 +47,7 @@ const allTools: {name: string; to: string; text: string}[] = [
   {name: 'Scene Generation', to: '/docs/tools/scene-generation', text: 'Creates a new lesson scene, in VR or AR, with the player set up.'},
   {name: 'Main Menu Setup', to: '/docs/tools/main-menu', text: 'Builds the start menu, with one button per lesson.'},
   {name: 'Scenario Setup', to: '/docs/tools/scenario-setup', text: 'Builds the lesson as a series of steps.'},
+  {name: 'XR Pre-Training', to: '/docs/tools/xr-pre-training', text: 'Adds a warm-up so learners practise the XR controls first.'},
   {name: 'Guidance Setup', to: '/docs/tools/guidance-setup', text: 'A simpler Scenario Setup: instruction panels only.'},
   {name: 'Button Injection', to: '/docs/tools/button-injection', text: 'Adds pressable buttons to a machine, or anywhere in the room.'},
   {name: 'Model Adjuster', to: '/docs/tools/model-adjuster', text: 'Turns, resizes and sets a model on the ground before you place it.'},

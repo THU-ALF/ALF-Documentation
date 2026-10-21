@@ -27,6 +27,10 @@ ALF lessons follow one idea: learners do the **same task** several times, and ea
 
 Not every lesson needs every stage. [Choose the stages](./choose-the-stages.md) helps you pick.
 
+:::tip[Plan my lesson]
+Answer eight short questions about your goal, your learners and your equipment, and get a plan with the stages, the learning path and the tips that fit your lesson: [Plan my lesson](./plan-my-lesson.mdx).
+:::
+
 ## The guidelines, in planning order
 
 | # | Guideline | The question it answers |

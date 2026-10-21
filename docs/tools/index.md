@@ -12,6 +12,7 @@ The ALF tools, in the order you would usually use them to build a lesson. In Uni
 | [Scene Generation](./scene-generation/index.md) | Creates a new lesson scene, in VR or AR, with the player set up. |
 | [Main Menu Setup](./main-menu/index.md) | Builds the start menu, with one button per lesson. |
 | [Scenario Setup](./scenario-setup/index.md) | Builds the lesson as a series of steps, with instructions, changes in the room, and ways to finish each step. |
+| [XR Pre-Training](./xr-pre-training/index.md) | Adds a short warm-up before a lesson, so learners practise the XR controls first. |
 | [Guidance Setup](./guidance-setup/index.md) | A simpler version of Scenario Setup: instruction panels only. |
 | [Button Injection](./button-injection/index.md) | Adds pressable buttons to a machine, or anywhere in the room. |
 | [Model Adjuster](./model-adjuster/index.md) | Turns, resizes and sets a model on the ground before you place it. |

@@ -1,0 +1,296 @@
+/* Lesson Planner — uses Infima variables so it follows the site theme and dark mode. */
+
+.wizard {
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin: 1.5rem 0 2rem;
+  background: var(--ifm-background-surface-color);
+}
+
+.progress {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 0.75rem;
+}
+.dot {
+  flex: 1;
+  height: 6px;
+  border-radius: 3px;
+  background: var(--ifm-color-emphasis-200);
+}
+.dotDone {
+  background: var(--ifm-color-primary-lighter);
+}
+.dotNow {
+  background: var(--ifm-color-primary);
+}
+
+.counter {
+  font-size: 0.85rem;
+  color: var(--ifm-color-emphasis-700);
+  margin-bottom: 0.25rem;
+}
+.question {
+  font-size: 1.35rem;
+  margin-bottom: 0.25rem;
+}
+.help {
+  color: var(--ifm-color-emphasis-700);
+  margin-bottom: 0.75rem;
+}
+
+.options {
+  display: grid;
+  gap: 0.6rem;
+  margin: 1rem 0 1.25rem;
+}
+.option {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  text-align: left;
+  width: 100%;
+  padding: 0.85rem 1rem;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 10px;
+  background: var(--ifm-background-color);
+  color: var(--ifm-font-color-base);
+  font: inherit;
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s;
+}
+.option:hover {
+  border-color: var(--ifm-color-primary);
+}
+.option:focus-visible {
+  outline: 2px solid var(--ifm-color-primary);
+  outline-offset: 2px;
+}
+.optionSelected {
+  border-color: var(--ifm-color-primary);
+  background: color-mix(in srgb, var(--ifm-color-primary) 10%, var(--ifm-background-color));
+}
+.optionMark {
+  color: var(--ifm-color-primary);
+  font-size: 1.1rem;
+  line-height: 1.4;
+  min-width: 1.1rem;
+}
+.optionLabel {
+  display: block;
+  font-weight: 600;
+}
+.optionHint {
+  display: block;
+  font-size: 0.875rem;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+/* ---------- result ---------- */
+
+.result {
+  margin: 1.5rem 0 2rem;
+}
+.resultHead {
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-left: 5px solid var(--ifm-color-primary);
+  border-radius: 12px;
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 2rem;
+  background: var(--ifm-background-surface-color);
+}
+.kicker {
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--ifm-color-primary);
+  margin-bottom: 0.25rem;
+}
+.summary {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+.chips {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+.chip {
+  border: 1px solid var(--ifm-color-emphasis-300);
+  background: var(--ifm-background-color);
+  color: var(--ifm-font-color-base);
+  border-radius: 999px;
+  padding: 0.2rem 0.7rem;
+  font: inherit;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+.chip:hover {
+  border-color: var(--ifm-color-primary);
+}
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0.25rem;
+}
+.small {
+  font-size: 0.875rem;
+  margin-bottom: 0.4rem;
+}
+
+.stages {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(165px, 1fr));
+  gap: 0.75rem;
+  counter-reset: none;
+}
+.stage {
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-top: 4px solid var(--ifm-color-primary);
+  border-radius: 10px;
+  padding: 0.9rem 1rem;
+  background: var(--ifm-background-surface-color);
+  margin: 0;
+}
+.stage:nth-child(2) {
+  border-top-color: var(--ifm-color-primary-light);
+}
+.stage:nth-child(3) {
+  border-top-color: var(--ifm-color-primary-lighter);
+}
+.stage:nth-child(4) {
+  border-top-color: var(--ifm-color-primary-lightest);
+}
+.stageNum {
+  font-size: 0.8rem;
+  color: var(--ifm-color-emphasis-700);
+  margin-bottom: 0;
+}
+.stageName {
+  margin-bottom: 0.4rem;
+}
+.stageNote {
+  font-size: 0.85rem;
+  padding: 0.4rem 0.6rem;
+  border-radius: 6px;
+  background: var(--ifm-color-emphasis-100);
+}
+
+.paths {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 0.75rem;
+  margin-bottom: 2rem;
+}
+.path {
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 10px;
+  padding: 1rem 1.1rem 0.5rem;
+}
+.path h3 {
+  font-size: 1.05rem;
+}
+
+.phase {
+  margin: 1.5rem 0;
+}
+.phaseIntro {
+  color: var(--ifm-color-emphasis-700);
+  margin-top: -0.25rem;
+}
+.tip {
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 10px;
+  padding: 0.9rem 1.1rem 0.4rem;
+  margin-bottom: 0.6rem;
+  break-inside: avoid;
+}
+.tipTitle {
+  font-size: 1.02rem;
+  margin-bottom: 0.35rem;
+}
+.why {
+  font-size: 0.9rem;
+}
+.theory {
+  display: inline-block;
+  font-size: 0.78rem;
+  padding: 0.05rem 0.5rem;
+  border-radius: 999px;
+  background: var(--ifm-color-emphasis-200);
+  color: var(--ifm-color-emphasis-800);
+  margin-left: 0.15rem;
+}
+.gap {
+  font-size: 0.9rem;
+  padding: 0.5rem 0.7rem;
+  border-radius: 8px;
+  background: var(--ifm-color-warning-contrast-background);
+  color: var(--ifm-color-warning-contrast-foreground);
+}
+.gapBadge {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 0.05rem 0.45rem;
+  border-radius: 4px;
+  background: var(--ifm-color-warning-dark);
+  color: #fff;
+  margin-right: 0.25rem;
+}
+.gapSummary {
+  margin-bottom: 1rem;
+}
+.tools {
+  font-size: 0.875rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.75rem;
+  align-items: baseline;
+}
+.toolsLabel {
+  font-weight: 600;
+}
+.toolLink {
+  white-space: nowrap;
+}
+
+.checklist {
+  list-style: none;
+  padding-left: 0;
+}
+.checklist li {
+  margin-bottom: 0.4rem;
+}
+.checklist input {
+  margin-right: 0.4rem;
+}
+
+@media print {
+  .noPrint {
+    display: none !important;
+  }
+  .tip,
+  .stage,
+  .path {
+    border-color: #999;
+  }
+}
