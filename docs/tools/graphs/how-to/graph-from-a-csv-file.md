@@ -10,6 +10,9 @@ sidebar_position: 2
 ## Steps
 
 1. Open **ALF > Content Creation > Graphs**.
+
+   ![ALF menu with Content Creation > Graphs highlighted](./img/alf-dropdown-graphs.png)
+
 2. In step **1 Data**, make sure **CSV file** is selected.
 3. Press **Choose a file…** and pick the file, or drag it into the window from your file explorer or the **Project window**. The file can be anywhere on your computer.
 4. Check the **Preview**: the column names at the top, the values below, and the numbers read correctly.

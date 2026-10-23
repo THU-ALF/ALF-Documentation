@@ -15,8 +15,8 @@ Deploying turns the Unity project into an app and installs it on a headset over 
 
 | Headset | Build profile to select | Guide |
 |---|---|---|
-| **Meta Quest 3** | **Meta Quest 3** | [Meta Quest 3 build profile](./meta-quest-build-profile.md) |
-| **PICO 4** | **PICO 4** | [PICO 4 build profile](./pico-build-profile.md) |
+| **Meta Quest 3** | **Meta Quest 3** | [Build profiles](./build-profiles.md) |
+| **PICO 4** | **PICO 4** | [Build profiles](./build-profiles.md) |
 
 :::tip[The quick way]
 You can also build for both headsets straight from the **Android** platform: choose the connected headset in **Run Device** and click **Build And Run**. See [The quick way: Android and Run Device](./build-and-install.md#the-quick-way-android-and-run-device).
@@ -30,7 +30,7 @@ Once per computer and headset (or ask the tech team):
 
 1. [Prepare Unity](./prepare-unity.md): Android build support, switching the project to Android, and the scene list.
 2. [Prepare the headset](./prepare-the-headset.md): developer mode and USB debugging, then check that Unity sees it.
-3. Get to know the two build profiles: [Meta Quest 3](./meta-quest-build-profile.md) and [PICO 4](./pico-build-profile.md).
+3. Get to know the two [build profiles](./build-profiles.md): Meta Quest 3 and PICO 4.
 
 Every time the lessons change:
 

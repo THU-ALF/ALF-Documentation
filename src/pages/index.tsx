@@ -60,7 +60,10 @@ const allTools: {name: string; to: string; text: string}[] = [
   {name: 'Syntax Highlighter', to: '/docs/tools/syntax-highlighter', text: 'Shows program code on a board, coloured like in a code editor.'},
   {name: 'Motion', to: '/docs/tools/motion', text: 'Records how you operate a machine and replays it as ghost hands.'},
   {name: 'Planetary Lab', to: '/docs/tools/planetary-lab', text: 'A falling-objects experiment on Earth, the Moon or Mars.'},
+  {name: 'Electric Field', to: '/docs/tools/electric-field', text: 'An electrostatics experiment with charges, field lines and a probe.'},
+  {name: 'Mesh Deformation', to: '/docs/tools/mesh-deformation', text: 'A bending lab: how a beam bends and where it is under stress.'},
   {name: 'Positioning Setup', to: '/docs/tools/positioning', text: 'AR only: lines up a 3D model with a real object using QR codes.'},
+  {name: 'Text Import & Export', to: '/docs/tools/text-import-export', text: 'Translate or reword all texts of a lesson in one file.'},
   {name: 'Utilities', to: '/docs/tools/utilities', text: 'Scene Check and Project Status: check the scene and project settings.'},
 ];
 

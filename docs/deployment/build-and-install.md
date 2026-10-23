@@ -29,7 +29,7 @@ To build for the other headset, connect it, choose it in **Run Device**, check i
 ## Build with a headset profile
 
 1. Connect the headset by USB and put it on, or keep it awake.
-2. Open **File > Build Profiles** and select the profile for this headset ([Meta Quest 3](./meta-quest-build-profile.md) or [PICO 4](./pico-build-profile.md)). Make sure it's the **active** profile.
+2. Open **File > Build Profiles** and select the profile for this headset ([Meta Quest 3 or PICO 4](./build-profiles.md)). Make sure it's the **active** profile.
 3. In **Run Device**, choose the headset.
 4. Click **Build And Run**. Choose a folder for the `.apk` file, for example `Builds/Quest3` or `Builds/PICO4`. Use a separate folder per headset, because the two apps aren't interchangeable.
 

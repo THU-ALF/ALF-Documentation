@@ -12,6 +12,8 @@ sidebar_position: 2
 1. Open **ALF > Model Adjuster**.
 2. In step **1 Model**, choose the model in **Model asset**, or drag it in from the **Project window**. Press **Load model into preview**.
 
+   ![The Model Adjuster window, step 1 Model](./img/model-adjuster-window.png)
+
    The model appears on the plate at its original size and orientation, with the bottom of it centred on the origin.
 
 3. In step **2 Adjust**, change these until the model looks right:

@@ -5,7 +5,7 @@ sidebar_label: Tools
 
 # Tools
 
-The ALF tools, in the order you would usually use them to build a lesson. In Unity, you find them all in the top menu under **ALF**. The interaction tools are under **ALF > Interactivity**, the content tools under **ALF > Content Creation**, and the checks under **ALF > Utils**.
+The ALF tools, in the order you would usually use them to build a lesson. In Unity, you find them all in the top menu under **ALF**. The interaction tools are under **ALF > Interactivity**, the content tools under **ALF > Content Creation**, the physics labs under **ALF > Physics**, and the checks and Text Import & Export under **ALF > Utils**.
 
 | Tool | What it does |
 |---|---|
@@ -25,7 +25,10 @@ The ALF tools, in the order you would usually use them to build a lesson. In Uni
 | [Syntax Highlighter](./syntax-highlighter/index.md) | Shows program code on a board, coloured like in a code editor. |
 | [Motion](./motion/index.md) | Records how you operate a machine and replays it as ghost hands with your voice. |
 | [Planetary Lab](./planetary-lab/index.md) | A falling-objects experiment with gravity and air resistance on Earth, the Moon or Mars. |
+| [Electric Field](./electric-field/index.md) | An electrostatics experiment with charges, field arrows, field lines and a measuring probe. |
+| [Mesh Deformation](./mesh-deformation/index.md) | A bending lab for materials science: how a beam bends and where it's under stress. |
 | [Positioning Setup](./positioning/index.md) | AR only: lines up a 3D model with a real object using printed QR codes. |
+| [Text Import & Export](./text-import-export/index.md) | Gets all texts of a lesson into one file to translate or reword, and lets learners switch languages. |
 | [Utilities](./utilities/index.md) | Scene Check and Project Status: find stray cameras and check the project settings. |
 
 New to Unity? Read [Before you start](../before-you-start.md) first.

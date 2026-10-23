@@ -10,6 +10,9 @@ sidebar_position: 2
 ## Set up the scene
 
 1. Open **ALF > Content Creation > Motion > Demonstration Recorder**.
+
+   ![ALF menu with Content Creation > Motion > Demonstration Recorder highlighted](./img/alf-dropdown-motion.png)
+
 2. Under **Step 1: Choose Your Demonstration Target**, choose the **Demonstration Target Mode**:
    - **Virtual Machine**: drag the machine from the **Hierarchy** into **Virtual Machine Object**. Tick **Enable Passthrough** if you want to see your room around it.
    - **Physical Machine**: drag the object that marks the real machine's position into **Physical Anchor Transform**.

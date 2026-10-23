@@ -1,6 +1,7 @@
 ---
 title: Meta Quest 3 build profile
 sidebar_position: 3
+draft: true
 ---
 
 # Meta Quest 3 build profile

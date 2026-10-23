@@ -1,6 +1,7 @@
 ---
 title: PICO 4 build profile
 sidebar_position: 4
+draft: true
 ---
 
 # PICO 4 build profile

@@ -10,6 +10,9 @@ sidebar_position: 3
 ## Steps
 
 1. Open **ALF > Content Creation > Graphs**.
+
+   ![ALF menu with Content Creation > Graphs highlighted](./img/alf-dropdown-graphs.png)
+
 2. In step **1 Data**, select **Formulas**.
 3. Under **Variable and range**, set:
    - **Variable**: the name in your formulas, `x` by default (or `n` for sequences);

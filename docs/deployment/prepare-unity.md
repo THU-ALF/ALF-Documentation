@@ -34,7 +34,7 @@ Unity projects start out set up for **Windows**. The headsets are Android device
 **What to expect:**
 
 - **The first switch takes a while,** from several minutes to much longer. Unity converts every picture and model for Android. Don't close Unity while the progress bar is running.
-- **Choosing a headset afterwards is quick.** The [Meta Quest 3](./meta-quest-build-profile.md) and [PICO 4](./pico-build-profile.md) profiles are both Android profiles, so selecting one of them doesn't convert everything again.
+- **Choosing a headset afterwards is quick.** The Meta Quest 3 and PICO 4 [build profiles](./build-profiles.md) are both Android profiles, so selecting one of them doesn't convert everything again.
 - **Switching back to Windows** means waiting for the full conversion again. Avoid switching back and forth when you can.
 
 :::tip[Check what's active]

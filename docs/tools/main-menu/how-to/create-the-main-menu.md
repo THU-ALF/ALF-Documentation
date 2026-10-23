@@ -13,7 +13,28 @@ sidebar_position: 2
 
    ![ALF menu with Main Menu Setup highlighted](./img/alf-dropdown-main-menu.png)
 
-2. Choose the **Menu Rig Mode**: the player setup for the menu itself. See [VR or AR for the menu](./before-you-start.md#vr-or-ar-for-the-menu).
+2. Choose the **Menu Rig Mode**: the player setup for the menu itself.
+
+   The **player setup** (in Unity often called the *XR rig*) is everything in a scene that turns the headset into the learner's eyes and hands:
+
+   - the **camera** that moves with the learner's head, so they can look around;
+   - the **controllers** or the learner's **tracked hands**, with the rays and fingertips they point, press and grab with;
+   - for **AR**, the **passthrough** that shows the real room through the headset's cameras;
+   - for some setups, a way to **move around** the room.
+
+   Without a player setup, the headset shows nothing and learners can't press the menu's buttons. You choose from the same five setups as in [Scene Generation](../../scene-generation/how-to/before-you-start.md#the-five-player-setups):
+
+   | Menu Rig Mode | Learners use the menu… |
+   |---|---|
+   | **VR Controllers** | in a virtual room, pointing with the controllers |
+   | **VR Hands** | in a virtual room, pointing and pinching with their hands |
+   | **VR Hand Locomotion** | in a virtual room, with their hands, and can move around |
+   | **AR Controllers** | in the real room, pointing with the controllers |
+   | **AR Hands** | in the real room, pointing and pinching with their hands |
+
+   In the list, the names are shown with underscores, for example `VR_Controllers`.
+
+   Pick the setup learners will use when the app starts. It only affects the menu: each lesson opens with its own setup. See [VR or AR for the menu](./before-you-start.md#vr-or-ar-for-the-menu).
 
    ![Main Menu Setup window with three lessons added](./img/main-menu-setup-editor.png)
 

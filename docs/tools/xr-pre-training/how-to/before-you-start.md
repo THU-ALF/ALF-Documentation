@@ -1,9 +1,9 @@
 ---
-title: Before you start
+title: How XR Pre-Training works
 sidebar_position: 1
 ---
 
-# Before you start
+# How XR Pre-Training works
 
 In XR, learners have to deal with two new things at once: the lesson content and the controls themselves. A short warm-up takes the second one off their plate. Each exercise practises **one skill**, takes about **30 to 60 seconds**, and gives immediate feedback.
 
@@ -23,9 +23,9 @@ The tool looks at two things:
 ## What it adds
 
 - A **practice station**: the practice objects, an instruction panel and a feedback label, placed where the learner starts.
-- **Practice steps** in front of your lesson's steps: a welcome, one or two steps per exercise, and a closing step that says the lesson starts now.
+- A **warm-up sequence** of its own: a welcome, one or two steps per exercise, and a closing step. It runs before your lesson.
 
-Your lesson's own steps aren't changed, only moved along.
+Your lesson isn't touched. Its steps stay as they are, with the same numbers, and the warm-up's steps don't appear in Scenario Setup.
 
 ## The window
 
@@ -33,7 +33,11 @@ Your lesson's own steps aren't changed, only moved along.
 |---|---|
 | **1 Lesson** | Check the scene, the player setup and the lesson the tool found. |
 | **2 Modules** | Choose the exercises and the language. |
-| **3 Generate** | Set the hint delay, add, regenerate or remove the warm-up. |
+| **3 Generate** | Set the hint delay, then add or regenerate the warm-up. |
+| **4 Steps** | Change the text, look, hint and panel position of each practice step. |
+| **5 Save** | Move the station, save the scene, or remove the warm-up. |
+
+![The XR Pre-Training window with its five steps](./img/xr-pre-training-window.png)
 
 :::caution[Not while the scene is playing]
 The tool doesn't work in Play mode. Stop Play mode first.

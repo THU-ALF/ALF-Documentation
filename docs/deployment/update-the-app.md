@@ -12,8 +12,8 @@ Use this routine every time you've finished new or changed lessons and want them
 3. **Add new lessons to the Scene List.** Open **File > Build Profiles > Scene List** and add any new lesson scenes. The main menu stays at the top. See [Set the scene list](./prepare-unity.md#set-the-scene-list).
 4. **Update the main menu.** Open the main menu scene and [update the main menu](../tools/main-menu/how-to/update-the-main-menu.md) so it has a button for every lesson.
 5. **Raise the version.** See [Set the app's name and version](./prepare-unity.md#set-the-apps-name-and-version).
-6. **Build for the Meta Quest 3.** Switch to the [Meta Quest 3](./meta-quest-build-profile.md) profile, check that only **Meta Quest Support** is ticked under OpenXR, and [Build And Run](./build-and-install.md) with a Quest 3 connected.
-7. **Build for the PICO 4.** Switch to the [PICO 4](./pico-build-profile.md) profile, check that only the **PICO** feature group is ticked, and Build And Run with a PICO 4 connected.
+6. **Build for the Meta Quest 3.** Switch to the Meta Quest 3 [build profile](./build-profiles.md), check that only **Meta Quest Support** is ticked under OpenXR, and [Build And Run](./build-and-install.md) with a Quest 3 connected.
+7. **Build for the PICO 4.** Switch to the PICO 4 [build profile](./build-profiles.md), check that only the **PICO** feature group is ticked, and Build And Run with a PICO 4 connected.
 
    Or, for steps 6 and 7, use [the quick way](./build-and-install.md#the-quick-way-android-and-run-device): stay on **Android**, choose each headset in **Run Device** in turn, and click **Build And Run**.
 

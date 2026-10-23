@@ -1,6 +1,6 @@
 ---
 title: Troubleshooting
-sidebar_position: 6
+sidebar_position: 7
 ---
 
 # Troubleshooting
@@ -19,7 +19,11 @@ The tool couldn't tell which player setup the scene uses, for example because th
 
 ## Step 1 says the instructions no longer match the player setup
 
-The player setup changed after the warm-up was added. Press **Regenerate the warm-up**.
+The player setup changed after the warm-up was added. Press **Regenerate the warm-up**. The texts and hints are written again for the new setup.
+
+## Step 1 says the warm-up was made with an earlier version
+
+Press **Regenerate the warm-up** once. See [Warm-ups made with the first version](./change-or-remove.md#warm-ups-made-with-the-first-version-of-the-tool).
 
 ## The warm-up is longer than five minutes
 
@@ -29,13 +33,17 @@ Untick exercises your learners already know, in step 2.
 
 Move the station. See [Move the station](./change-or-remove.md#move-the-station). The overlap warning is a hint: check on the headset that everything is within reach.
 
-## Scenario Setup shows practice steps with "no button chosen" warnings
+## Regenerate asks me to save first
 
-The practice station was deleted by hand, so the steps are no longer recognised as practice steps. Either delete those steps in Scenario Setup, or **Regenerate the warm-up** here.
+You have unsaved changes in step 4. Press **Save step changes** there, or **Discard my changes**, then regenerate.
 
-## The station stayed after removing the lesson in Scenario Setup
+## My wording in step 4 was replaced
 
-Removing the whole lesson in Scenario Setup doesn't remove the station. Remove it here with **Remove the warm-up**.
+Regenerating with a new language, a new player setup, or **Write all texts again** ticked writes all texts and hints again. Step 3 warns about this before you regenerate. **Ctrl+Z** brings your wording back.
+
+## Scenario Setup refuses to edit the practice steps
+
+That's intended. Scenario Setup only edits the lesson. Edit the practice steps in step 4 of this tool.
 
 ## Pressing Next does nothing during an exercise
 

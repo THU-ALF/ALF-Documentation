@@ -16,7 +16,7 @@ Builds the lesson itself: a sequence of **steps** the learner works through. For
 This is the tool that connects the others. Buttons from [Button Injection](../button-injection/index.md), models from [Object Spawner](../object-spawner/index.md) and machines from [Exploded View](../exploded-view/index.md) all come together here.
 
 :::tip[Warm-up before the lesson]
-When the lesson is finished, add a short warm-up with [XR Pre-Training](../xr-pre-training/index.md), so learners practise the controls before the content starts. Its practice steps appear here first, labelled **Pre-training** and locked.
+When the lesson is finished, add a short warm-up with [XR Pre-Training](../xr-pre-training/index.md), so learners practise the controls before the content starts. The warm-up runs before the lesson but has its own steps, so it doesn't show up here, and your lesson steps keep their numbers.
 :::
 
 ## Quick start

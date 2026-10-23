@@ -24,4 +24,5 @@ The lab gets a guided lesson with language controls, so learners can switch betw
 
 - **The questions are saved in a separate lesson file** in the project, so several labs can share them.
 - **Changed the objects or the completion rules?** Check that the questions still fit, then press **Apply lesson to this lab** again.
+- **More languages than English and German:** press **Enable runtime localization for this lab** in the lesson step, then **Open Localization & Translation Tool**. See [Let learners switch languages](../../text-import-export/how-to/switch-languages.md).
 - **One lesson per scene.** The lab uses the scene's lesson steps, like [Guidance Setup](../../guidance-setup/index.md) does.

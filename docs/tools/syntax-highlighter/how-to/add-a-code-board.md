@@ -19,7 +19,12 @@ sidebar_position: 2
 
    When you load a file, the language is taken from its ending (`.cs`, `.java`, `.c`, `.h`, `.py`).
 
+   ![Syntax Highlighter, step 1 Code, with pasted C# code](./img/syntax-highlighter-new-board.png)
+
 5. Read the notes under the code. They tell you how many lines the board shows, when it gets very tall or wide, and if the font can't show some characters.
+
+   ![Syntax Highlighter with notes about a long file under the code](./img/syntax-highlighter-notes.png)
+
 6. Press **Add the code board to the scene**.
 
 The board appears in front of the Scene view camera. It's named `Code - ` followed by the title.

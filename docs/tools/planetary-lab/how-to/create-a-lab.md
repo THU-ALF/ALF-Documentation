@@ -10,6 +10,9 @@ sidebar_position: 2
 ## Steps
 
 1. Open your lesson scene, then **ALF > Physics > Planetary Lab Setup**.
+
+   ![ALF menu with Physics > Planetary Lab Setup highlighted](./img/alf-dropdown-planetary-lab.png)
+
 2. In step **1 System**, press **Create a lab in the active scene**. This adds the lab, its controls and its graphs. The rest of your scene stays as it is.
 3. Still in step **1 System**, choose:
    - **Initial environment**: where the experiment starts, for example Earth;
